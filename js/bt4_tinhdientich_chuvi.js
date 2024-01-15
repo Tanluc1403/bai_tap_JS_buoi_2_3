@@ -29,7 +29,7 @@ function tinhChuVi_DienTich(){
 
     console.log(chuVi , dienTich)
 
-    document.getElementById("txttinh").innerHTML= "Chu vi là: " + chuVi + " ; " + "Diện tích là: " + dienTich + "."
+    document.getElementById("txtTinh").innerHTML= "Chu vi là: " + chuVi + " ; " + "Diện tích là: " + dienTich + "."
     
 }
 document.getElementById("btntinh").onclick= tinhChuVi_DienTich
